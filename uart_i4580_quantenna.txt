@@ -1,0 +1,396 @@
+bc_rgmii_timing: 0x1f1f8484
+Quantenna Mini U-Boot
+Version: v37.4.0.93 Built: pa� 03 2017 at 13:32:07
+br
+1G-FD
+Using br device
+TFTP from server 169.254.1.1; our IP address is 169.254.1.3
+Filename 'u-boot.bin'.
+Load address: 0x88000000
+Loading: *T ##############
+done
+Bytes transferred = 70044 (0x1119c)
+Boot reached stage 13
+Boot reached stage 12
+Valid CRC found in flash restoring env...
+Boot reached stage 11
+hw_config_id 65535: 'QTM840_5S1_MS_MAC'
+Cold boot
+Reset status: 0x00000001
+
+Info: data uncached: addr=0xc0000000 size=1024MB
+Info: text at 0x88040000, stack at 0x88013ffc(8192), heap at 0x88000000(73728), uboot size 174604
+Info: i-cache is enabled
+Info: d-cache is enabled
+Info: CPU freq is 500000000, dev freq is 125000000
+
+Info: Quantenna U-Boot version:v37.4.0.136
+Info: build date 'cze 28 2018', time '11:55:47'
+
+SPI flash info:
+	name             : mx25l512e
+	jedec_id         : 0xc22010
+	sector size      : 4096
+	number of sector : 16
+	frequency        : 104000000
+	flags            : 0x2
+	lock             : 
+DDR_INIT: type = 16, speed = 2, size = 134217728, rev = 0x43, param = 0x0 
+DDR_INIT: replacing invalid param = 0x0 with default 0xe7b
+500MHz
+BDA at 0x80002000
+In:    serial
+Out:   serial
+Err:   serial
+Boot reached stage 64
+Boot reached stage 65
+br
+Hit any key to stop autoboot:  2  1  0 
+Boot reached stage 80
+1G-FD
+Using br device
+TFTP from server 169.254.1.1; our IP address is 169.254.1.3
+Filename 'topaz-linux.lzma.img'.
+Load address: 0x83000000
+Loading: *#################################################################
+	 #################################################################
+	 #################################################################
+	 #################################################################
+	 #################################################################
+	 #################################################################
+	 #################################################################
+	 #################################################################
+	 #################################################################
+	 #################################################################
+	 #################################################################
+	 #################################################################
+	 #################################################################
+	 #################################################################
+	 #################################################################
+	 #################################################################
+	 #################################################################
+	 #################################################################
+	 #################################################################
+	 #################################
+done
+Bytes transferred = 6491433 (0x630d29)
+Boot reached stage 81
+Boot reached stage 84
+Boot reached stage 1
+## Booting kernel from Legacy Image at 83000000 ...
+Boot reached stage 2
+Boot reached stage 3
+   Image Name:   topaz-linux
+   Image Type:   arc Linux Kernel Image (lzma compressed)
+   Data Size:    6483241 Bytes =  6.2 MB
+   Load Address: 8493a000
+   Entry Point:  8493a000
+   Qtn flags:    00000001
+   Verifying Checksum ... OK
+Boot reached stage 4
+Boot reached stage 5
+Boot reached stage 6
+Boot reached stage 14
+   Uncompressing Kernel Image ... OK
+Boot reached stage 7
+Boot reached stage 8
+Command line TAG setup
+Params->u.cmdline.cmdline panic=3 console=ttyS0,115200n8 earlyprintk=1 hw_config_id=65535
+p panic=3 console=ttyS0,115200n8 earlyprintk=1 hw_config_id=65535
+##  Unset TAG qtn_flags 1
+## Transferring control to Linux (at address 8493a000) ATAG parameters 88068114 - 88068174...
+[    0.000000] Linux version 2.6.35.12 (lukas@lukas) (gcc version 4.2.3 (ARC_2.3)) #2 Thu Nov 14 13:43:01 CET 2019
+[    0.000000] Parsing ATAG parameters from bootloader
+[    0.000000] ATAG_CORE: successful parsing
+[    0.000000] ATAG_CMDLINE: command line = panic=3 console=ttyS0,115200n8 earlyprintk=1 hw_config_id=65535
+[    0.000000] Board id: 65535
+[    0.000000] ATAG_HW_CONFIG_ID: hw_config_id = 65535
+[    0.000000] 
+[    0.000000] Processor Family: ARC 700 [0x33]
+[    0.000000] CPU speed :	500.00 Mhz
+[    0.000000] Timers: 	TIMER1 TIMER0 
+[    0.000000] Interrupt Vect Base: 	0x88052800 
+[    0.000000] Peripheral Base: NOT present; assuming 0xCOFC0000 
+[    0.000000] Data UNCACHED Base (I/O): start 0xc0 Sz, 1024 MB 
+[    0.000000] ARC700 MMU Ver [2]
+[    0.000000]    PAGE SIZE 8k
+[    0.000000]    JTLB 128 x 2 = 256 entries
+[    0.000000]    uDTLB 8 entr, uITLB 4 entr
+[    0.000000] TLB Refill "will NOT" Flush uTLBs
+[    0.000000] Detected I-cache : 
+[    0.000000]   Type=2 way set-assoc, Line length=32, Size=16K (enabled)
+[    0.000000] Detected D-cache : 
+[    0.000000]   Type=4 way set-assoc, Line length=32, Size=16K (enabled)
+[    0.000000] Extensions:
+[    0.000000]    MPY: 32x32 with ANY Result Reg   MAC MPY: Dual 16 x 16 and 32 x 16
+[    0.000000]    DCCM: N/A  ICCM: N/A
+[    0.000000]    CRC: N/A,   SWAP: Present   NORM: Present
+[    0.000000]    Min-Max: Present,   Barrel Shifter: Present
+[    0.000000]    Ext Arith Insn: Present
+[    0.000000] Floating Point Extension: N/A
+[    0.000000] On node 0 totalpages: 16383
+[    0.000000] free_area_init_node: node 0, pgdat 85dba42c, node_mem_map 85e74024
+[    0.000000]   Normal zone: 72 pages used for memmap
+[    0.000000]   Normal zone: 0 pages reserved
+[    0.000000]   Normal zone: 16311 pages, LIFO batch:3
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 16311
+[    0.000000] Kernel command line: panic=3 console=ttyS0,115200n8 earlyprintk=1 hw_config_id=65535
+[    0.000000] bootconsole [ruby_early0] enabled
+[    0.000000] PID hash table entries: 512 (order: -2, 2048 bytes)
+[    0.000000] Dentry cache hash table entries: 16384 (order: 3, 65536 bytes)
+[    0.000000] Inode-cache hash table entries: 8192 (order: 2, 32768 bytes)
+[    0.000000] Memory: 33592KB available (2361K code,1350K data, 18016K init)
+[    0.000000] Hierarchical RCU implementation.
+[    0.000000] 	RCU debugfs-based tracing is enabled.
+[    0.000000] 	Verbose stalled-CPUs detection is disabled.
+[    0.000000] clockevent mode switch to [1]
+[    0.000000] clockevent mode switch to [2]
+[    0.000000] Calibrating delay loop... 248.21 BogoMIPS (lpj=620544)
+[    0.105000] pid_max: default: 4096 minimum: 301
+[    0.110000] Mount-cache hash table entries: 1024
+[    0.115000] Starting run_ksoftirqd, stack (thread_info) at 85dde000 cpu 0
+[    0.120000] NET: Registered protocol family 16
+[    0.125000] Topaz heap 1 in SRAM 88016360<->88020000
+[    0.130000] Topaz heap 2 in SRAM 88011000<->88012000
+[    0.140000] bio: create slab <bio-0> at 0
+[    0.145000] watch64: 2003/08/22 Josef 'Jeff' Sipek <jeffpc@xxxxxxxxxxxxx>
+[    0.150000] watch64: Enabling Watch64 extensions...done.
+[    0.155000] Switching to clocksource ARC Timer1
+[    0.160000] NET: Registered protocol family 2
+[    0.165000] IP route cache hash table entries: 2048 (order: 0, 8192 bytes)
+[    0.170000] TCP established hash table entries: 4096 (order: 2, 32768 bytes)
+[    0.175000] TCP bind hash table entries: 4096 (order: 1, 16384 bytes)
+[    0.180000] TCP: Hash tables configured (established 4096 bind 4096)
+[    0.185000] TCP reno registered
+[    0.190000] NET: Registered protocol family 1
+[    0.845000] JFFS2 version 2.2. (NAND) � 2001-2006 Red Hat, Inc.
+[    0.855000] msgmni has been set to 65
+[    0.860000] alg: No test for stdrng (krng)
+[    0.865000] io scheduler noop registered (default)
+[    1.290000] Serial: 8250/16550 driver, 2 ports, IRQ sharing enabled
+[    1.300000] serial8250.0: ttyS0 at MMIO 0xf0000000 (irq = 48) is a 16550A
+[    1.305000] console [ttyS0] enabled, bootconsole disabled
+[    1.305000] console [ttyS0] enabled, bootconsole disabled
+[    1.315000] brd: module loaded
+[    1.320000] loop: module loaded
+[    1.325000] spi_flash: Force not to support Protect Mode 
+[    1.335000] Creating 3 MTD partitions on "spi_flash":
+[    1.340000] 0x000000000000-0x000000005000 : "uboot"
+[    1.345000] 0x000000005000-0x00000000b000 : "uboot_env"
+[    1.355000] 0x00000000b000-0x000000010000 : "data"
+[    1.360000] spi_flash: SPI flash driver initialized successfully!
+[    1.365000] ruby_health loading
+[    1.370000] HBM pool: emac rx 0x0 to 0x8000, wmac rx 0x8000 to 0xa000
+[    1.765000] HBM meta: emac rx 0x63c040 to 0x6bc040, wmac rx 0x6bc080 to 0x6dc080
+[    1.770000] topaz_hbm_init_pool_list pool 0 pool_list 0x88000000 bus_range 0x16ec400 to 0x26ec400 sz 2048 count 8192
+[    1.770000] topaz_hbm_init_pool_list pool 1 pool_list 0x88008000 bus_range 0x26fc400 to 0x48fc400 sz 17408 count 2048
+[    1.770000] topaz_hbm_init_pool_list pool 3 pool_list 0x8800a000 bus_range 0x0 to 0x0 sz 0 count 4096
+[    1.775000] topaz_busmon_init success
+[    1.780000] topaz_temp_sens_init success
+[    1.785000] u32 classifier
+[    1.785000]     input device check on
+[    1.790000]     Actions configured
+[    1.795000] Netfilter messages via NETLINK v0.30.
+[    1.800000] nf_conntrack version 0.5.0 (524 buckets, 2096 max)
+[    1.805000] ip_tables: (C) 2000-2006 Netfilter Core Team
+[    1.810000] TCP cubic registered
+[    1.815000] NET: Registered protocol family 10
+[    1.820000] NET: Registered protocol family 17
+[    1.825000] 802.1Q VLAN Support v1.8 Ben Greear <greearb@candelatech.com>
+[    1.830000] All bugs added by David S. Miller <davem@redhat.com>
+[    1.835000] SCTP: Hash tables configured (established 2048 bind 4096)
+[    1.850000] Freeing unused kernel memory: 18016k freed [8493a000] TO [85ad2000]
+[    1.855000] Common mmap addr-space starts 2c0f0000
+starting pid 45, tty '': '/etc/init.d/rcS'
+[    2.105000] load_module: 'bootcfg' using DRAM (offset:0x85f70000, size:0x9264)
+Starting portmap: done
+Initializing random number generator... done.
+/mnt/jffs2/wireless_conf.txt not found. Creating a default conf file
+restore_wireless_conf
+restore_wireless_conf: wifi_mode = default
+restore_wireless_conf: Setting default wireless config params
+restore_wireless_conf: board_id = 65535
+restore_wireless_conf: board_name = QTM840_5S1_MS_MAC
+restore_wireless_conf: Writing config params to /mnt/jffs2/wireless_conf.txt
+Starting network...
+[    3.255000] load_module: 'rtl8367b' using DRAM (offset:0x85f80000, size:0x32a77)
+[    3.265000] rtl8367b: module license 'unspecified' taints kernel.
+[    3.270000] Disabling lock debugging due to kernel taint
+[    3.315000] load_module: 'emaclib' using DRAM (offset:0x874d0000, size:0x54c3)
+[    3.395000] load_module: 'switch_vlan' using DRAM (offset:0x85f48000, size:0x2775), SRAM (offset:0x88016368, size:0x1)
+[    3.455000] load_module: 'switch_tqe' using DRAM (offset:0x85a84000, size:0x3b9a), SRAM (offset:0x88016378, size:0x1a10)
+[    3.510000] tqe_descs_alloc: 2048 tqe_rx_descriptors at kern uncached 0x580e1da0 bus 0x80017da0
+[    3.550000] load_module: 'fwt_if' using DRAM (offset:0x85f66000, size:0x1b07)
+[    3.575000] load_module: 'fwt_ctrl' using DRAM (offset:0x85fc0000, size:0x23a41)
+[    3.620000] load_module: 'dpi' using DRAM (offset:0x85f44000, size:0x1db7)
+[    3.635000] load_module: 'switch_emac' using DRAM (offset:0x874d8000, size:0x2613), SRAM (offset:0x88011a40, size:0x2f8)
+[    3.715000] emac wbsp: 0
+[    3.720000] enable A2 (single)
+[    3.720000] Random stuff 07
+emac0 is eth1_0, emac1 is unused
+Stateless mode. Using temporary ip address: 
+Using IP address 169.254.1.3
+Netmask is not set
+[    3.960000] emac_lib eth1_0: force link (1000/Full)
+[    4.110000] FWT: [00:26:86:00:00:00] add entry, port:drop node:0 index:437 4addr:0 entries:1
+[    4.170000] device eth1_0 entered promiscuous mode
+[    4.175000] br0: port 1(eth1_0) entering forwarding state
+[    4.180000] br0: port 1(eth1_0) entering forwarding state
+/sbin/ifup -a
+[    4.320000] FWT: [00:1e:80:f8:a6:be] add entry, port:emac0 node:0 index:903 4addr:0 entries:2
+ifconfig: SIOCGIFFLAGS: No such device
+Version of /proc/bootcfg/qtn_regulatory_db.bin is Regulatory db version: v37.3.0.21
+Version of /etc/qtn_regulatory_db.bin is Regulatory db version: v37.4.0.171
+Selected database version: Regulatory db version: v37.4.0.171
+Using /etc/qtn_regulatory_db.bin
+Starting qevt_server
+Starting inetd ...
+/etc/init.d/rcS: line 43: /etc/init.d/S42mlpm: Permission denied
+/scripts/cmdloop starting /sbin/qevt_server, at 00:00:04 up 0 min, load average: 0.00, 0.00, 0.00
+[    4.690000] FWT: [5c:93:a2:b5:2e:65] add entry, port:emac0 node:0 index:399 4addr:0 entries:3
+[    4.970000] load_module: 'hw_rev' using DRAM (offset:0x85a98000, size:0x3794)
+Starting wireless...
+[    5.095000] FWT: [00:11:33:55:77:bb] add entry, port:emac0 node:0 index:387 4addr:0 entries:4
+[    5.110000] FWT: [00:26:86:00:00:00] delete entry, port:drop node:0 index:437
+restore_default_config -nr
+restore_default_config: Updating security config files for mode ap
+restore_default_config: Removing block ACK restrictions
+restore_default_config: Configuration has been set to default values. Reboot after customizing to ensure correct operation.
+complete
+/scripts/cmdloop starting /sbin/qcsapi_rpcd, at 00:00:06 up 0 min, load average: 0.08, 0.01, 0.00
+/scripts/cmdloop starting /sbin/call_qcsapi_rpcd, at 00:00:06 up 0 min, load average: 0.08, 0.01, 0.00
+'monitor_temperature' is not enabled/set
+/etc/init.d/rcS: line 43: /etc/init.d/S85ntpclient: Permission denied
+MAUI service started
+DHCP client disabled
+Starting httpd
+cp: can't stat '/etc/minihttpd.conf': No such file or directory
+starting pid 469, tty '/dev/console': '/bin/login'
+soc1 login: Using IP address 169.254.1.3
+Netmask is not set
+ifconfig: bad address ''
+Loading modules
+[    8.745000] load_module: 'qtn_debug' using DRAM (offset:0x85a92800, size:0x387)
+[    8.775000] load_module: 'i2cbus' using DRAM (offset:0x85a90000, size:0x1cfe)
+[    8.840000] load_module: 'qtsens' using DRAM (offset:0x87538000, size:0x7c6)
+[    8.880000] load_module: 'pm_interval' using DRAM (offset:0x875f2000, size:0x13c2)
+[    8.965000] load_module: 'wlan' using DRAM (offset:0x85800000, size:0xb9601)
+[    9.315000] wlan: 0.8.4.2 (0.9.3.3)
+[    9.355000] load_module: 'auc_fw' using DRAM (offset:0x874a4000, size:0x8df)
+[    9.385000] load_module: 'qvspmod' using DRAM (offset:0x871c4000, size:0x3f65)
+[    9.415000] QVSP module init
+[    9.475000] load_module: 'qdrv' using DRAM (offset:0x85900000, size:0xa9f04)
+[    9.765000] qdrv wbsp: 0
+[    9.785000] load_module: 'wlan_xauth' using DRAM (offset:0x871cf000, size:0x33f)
+[    9.810000] load_module: 'wlan_ccmp' using DRAM (offset:0x875b0000, size:0x1792)
+[    9.850000] load_module: 'wlan_tkip' using DRAM (offset:0x87148000, size:0x2646)
+Loading MuC driver (qtn_driver.qtn_ruby.0.bin)
+WARNING: can't open config file: /usr/lib/ssl/openssl.cnf
+no keyfile specified
+unable to load Public Key
+Waiting for Wireless Events from interfaces...
+Found power table in /etc/power_tables
+[   10.445000] set power_selection 2
+[   10.450000] qdrv_soc_publish_params: parames->tqe_sem_en 0, auc_tqe_sem_en 0
+[   10.455000] ..... Current RFIC Chip ID -- 4
+[   10.620000] AuC SRAM start 0x88040000 end 0x88070000 size 196608
+[   10.625000] AuC is configured for MU-enabled SRAM layout
+[   10.630000] AuC SRAM bank 0 start 0x88040000 end 0x88050000
+[   10.635000] AuC SRAM bank 1 start 0x88050000 end 0x88060000
+[   10.640000] AuC SRAM bank 2 start 0x88060000 end 0x88070000
+[   10.680000] MuC: g_tqe_sem_en 0
+[   10.680000] MuC: build date Wed, 03 Oct 2018 14:35:42 -0700
+[   10.685000] MuC: slow heap begin=0x002a33e0 end=0x004203e0
+[   10.690000] MuC: fast heap begin=0x80030800 end=0x80037000
+[   10.695000] MuC: stack start=0x8003ef80 sp=0x8003f6d4
+[   10.700000] MuC: calstate is 3 (prod), dcache on
+[   10.705000] MuC: RFIC version 1 rev 0
+[   10.735000] qdrv_mac_reserve_clear: mac reservation table cleared
+[   10.745000] QDRV: I2C dapter not found
+[   10.755000] MuC: bb_init: FEM 0x7 bw_mode 0 chan 0 11b 0 11a 1
+[   10.760000] MuC: set max/nrm gain(0x27) done.
+[   10.765000] MuC: set cca threshold!
+[   10.770000] MuC: rf_optimizing_rf_register_map, set rf to 0x75
+[   10.775000] MuC: os_uc, after bb_rf_complete_attach.
+[   10.780000] MuC: WMAC0: hal fd start=0xe5040300 count=48 size=108 end=0xe5041740
+[   10.785000] MuC: WMAC1: hal fd start=0xe5140d50 count=8 size=84 end=0xe5140ff0
+[   10.790000] MuC: freq 1 proj 1
+[   10.790000] MuC: dynamic one-bit autocorrelation enabled
+[   10.795000] MuC: QMAT SRAM base 0x80070000
+[   10.800000] MuC: enable IRQs
+[   10.930000] qdrv_mu_stat_init
+[   11.005000] MuC: AuC enabled 0xe5101d18/0x60053630 il 0xe51012d0/0xe51012d4 stats 0x60051170/0x600533700x6006d72c
+[   11.015000] MuC: Update MU debug flag from 0x00000000 to 0x20000000
+[   11.020000] AuC: Update mu flag : 0x20000000. Max delay = 0, atf MU-vopt flag 0
+[   11.030000] QDRV: hardware is 4x4 11ac FO RGMII/PCIe QV840
+[   11.035000] MuC boot succeeded 0.105 seconds
+start-vap ap
+sh: 1: unknown operand
+[   11.450000] load_module: 'wlan_scan_ap' using DRAM (offset:0x871d0000, size:0x3186)
+[   11.530000] QTM daemon registered
+[   11.575000] qvsp_nl_node_init: QVSP not initialized
+[   11.580000] MuC: qtn_mu_ndpa_setup: bw_cap 2 done
+[   11.600000] VAP create succeeded 0.010 seconds
+[   11.610000] MuC: qtn_mu_ndpa_setup: bw_cap 2 done
+[   11.850000] MuC: calibration ver 0x801
+bss_tm set to 1
+neigh_repo reset to 0
+radar in 80MHZ mode
+Setting mode to 11ac80
+set_region: Setting regulatory region dev_name=wifi0 region=eu mode=ap repeater=0
+radar start with[   12.870000] DFS_s_radio: parameters updated, region: eu
+ regulatory eu
+[   12.875000] MuC: macfw: radar_start.........
+[   12.880000] MuC: radar_start, region eu = 2
+[   13.125000] qdrv_radar_enable_action: ERROR - radar already enabled
+ICAC: max_boot_cac is greater than 0, hence the parameter non_dfs_channel is ignored. To avoid doing initial CAC set max_boot_cac to 0.
+dfs_s_radio 0 dfs 0 non-dfs 0 scan 0 auto-channel  channel 0
+Configure max_boot_cac to 80
+[   13.770000] device wifi0 entered promiscuous mode
+[   13.805000] Enabling SSDP flooding
+Beamforming enabled
+[   14.140000] Enabling SCS
+SCS enabled
+QTM: load profile off
+QTM enabled: 0
+[   15.020000] BRIDGE WLAN report flood-forwarding enabled
+[   15.030000] br0: no IPv6 routers present
+QCS API error 1010: Cannot contact security manager
+No core dump generated
+QCS API error 34: Parameter value out of range
+[   15.880000] Build name:            v37.4.0.180
+[   15.885000] Build revision:        86411
+[   15.890000] Build type:            SDK
+[   15.895000] Build version:         250400b4
+[   15.895000] Build timestamp:       1538603078
+[   15.900000] Platform ID:           432
+[   15.905000] Hardware ID:           QV840
+[   15.910000] Hardware revision:     bbic4_rev_a2
+[   15.915000] Band:                  5GHz
+[   15.920000] Kernel version:        2.6.35
+[   15.920000] Calibration version:   disabled
+[   15.925000] DC/IQ cal version:     V8.1
+[   15.930000] Power cal version:     V8.1
+[   15.935000] MuC firmware:          qtn_driver.qtn_ruby.0.bin
+[   15.940000] DSP firmware:          rdsp_driver.0.bin
+[   15.945000] AuC firmware:          auc_driver.default.0.bin
+[   15.950000] MAC address 0:         00:1e:80:f8:a6:c4
+[   15.955000] MAC address 1:         00:00:00:00:00:00
+[   15.960000] Recommended U-Boot:    v37.4.0.136
+Carrier ID 0, uboot update flag 0
+complete
+[   16.250000] MuC: Update MU debug flag from 0x20000000 to 0x00000000
+[   16.250000] MuC: MU enabled
+[   16.250000] AuC: Update mu flag : 0x00000000. Max delay = 0, atf MU-vopt flag 0
+[   16.275000] MuC: Update MU debug flag from 0x00000000 to 0x0002000f
+[   16.275000] AuC: Update mu flag : 0x0002000f. Max delay = 15, atf MU-vopt flag 0
+[   16.300000] MuC: Update MU debug flag from 0x0002000f to 0x0002200f
+[   16.305000] AuC: Update mu flag : 0x0002200f. Max delay = 15, atf MU-vopt flag 0
+Starting qrpe daemon...
+qtna-rpe(7.0.10-7e833fa) started
+Starting slave rpecat...
+[Notice] [RPECAT] rawlink connection to csm (00:11:33:55:77:bb) connected
+[   17.550000] Starting DFS seamless radio...
+radar start with regulatory eu
+[   18.315000] qdrv_radar_is_rdetection_required: ERROR - channel not yet set
+[   18.315000] qdrv_radar_enable_action: ERROR - radar already enabled

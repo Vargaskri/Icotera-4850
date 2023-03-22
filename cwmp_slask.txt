@@ -1,0 +1,884 @@
+Ð7E - ø¦¼EýÇB@@jÀ¨ ÝMðÐØ(= æÏÔYs8ªP¥Êÿ< soap : Envelope xmlns : soap = "http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns : soap - enc = "http://schemas.xmlsoap.org/soap/encoding/"
+    xmlns : xsi = "http://www.w3.org/2001/XMLSchema-instance"
+    xmlns : xsd = "http://www.w3.org/2001/XMLSchema"
+    xmlns : cwmp = "urn:dslforum-org:cwmp-1-0">
+    <soap:Header>
+        <cwmp:ID soap:mustUnderstand="1">6d7bf775</cwmp:ID>
+    </soap:Header>
+  Ð7E- ø¦¼EØÇA@@À¨ ÝMðÐØ (=æÎ$Ys8ªP¥Ð>POST /acs/ HTTP/1.1
+Host: ump.voip.bahnhof.net:10301
+User-Agent: AVSystem_libcwmp-3.0.12
+Cookie: AVSSESSIONID=1R1qweo8E6jo8pNmaV5fE8fTGOP4XWGx9Gu4pIF5HGEQ9tLKE1zNyQ
+Authorization: Digest username="4850000222300561", realm="ACSRealm", nonce="fAuh8X9RJroeNlWTCttDfcvHNFaY+1Qt", uri="/acs/", qop="auth", nc=182, cnonce="MI7ArauWhtMF0cQ", response="faf5a0aa97eea4005f23575c09ca7c77"
+Content-Type: text/xml;
+Content-Length: 469
+
+    < soap : Body ><cwmp:SetParameterValuesResponse><Status>1</Status></cwmp:SetParameterValuesResponse>< /soap:Body></soap : Envelope >
+
+
+Ð7E- ø¦¼EØÇA@@À¨ ÝMðÐØ (=æÎ$Ys8ªP¥Ð>POST /acs/ HTTP/1.1
+Host: ump.voip.bahnhof.net:10301
+User-Agent: AVSystem_libcwmp-3.0.12
+Cookie: AVSSESSIONID=1R1qweo8E6jo8pNmaV5fE8fTGOP4XWGx9Gu4pIF5HGEQ9tLKE1zNyQ
+Authorization: Digest username="4850000222300561", realm="ACSRealm", nonce="fAuh8X9RJroeNlWTCttDfcvHNFaY+1Qt", uri="/acs/", qop="auth", nc=182, cnonce="MI7ArauWhtMF0cQ", response="faf5a0aa97eea4005f23575c09ca7c77"
+Content-Type: text/xml;
+Content-Length: 469
+
+Ð7E- ø¦¼EÈÇ<@@¥À¨ ÝMðÐØ (=æÃ`Ys/ýP¥Ø:<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+        xmlns:soap-enc="http://schemas.xmlsoap.org/soap/encoding/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+        xmlns:cwmp="urn:dslforum-org:cwmp-1-0">
+        <soap:Header>
+            <cwmp:ID soap:mustUnderstand="1">05f521bb</cwmp:ID>
+        </soap:Header>
+        <soap:Body>
+            <cwmp:GetParameterNamesResponse>
+                <ParameterList soap-enc:arrayType="cwmp:ParameterInfoStruct[1]">
+                    <ParameterInfoStruct>
+                        <Name>Device.Services.VoiceService.1.VoiceProfile.2.SIP.ProxyServer.</Name>
+                        <Writable>true</Writable>
+                    </ParameterInfoStruct>
+                </ParameterList>
+            </cwmp:GetParameterNamesResponse>
+        </soap:Body>
+    </soap:Envelope>
+
+
+Ð7E- ø¦¼EØÇ;@@À¨ ÝMðÐØ (=æÁ°Ys/ýP¥5ÅPOST /acs/ HTTP/1.1
+Host: ump.voip.bahnhof.net:10301
+User-Agent: AVSystem_libcwmp-3.0.12
+Cookie: AVSSESSIONID=1R1qweo8E6jo8pNmaV5fE8fTGOP4XWGx9Gu4pIF5HGEQ9tLKE1zNyQ
+Authorization: Digest username="4850000222300561", realm="ACSRealm", nonce="fAuh8X9RJroeNlWTCttDfcvHNFaY+1Qt", uri="/acs/", qop="auth", nc=179, cnonce="MI7ArauWhtMF0cQ", response="12b350ed007d6d891963e7a7ae647d35"
+Content-Type: text/xml;
+Content-Length: 672
+
+
+
+ø¦¼Ð7E- ESÞ@5y×MðÐØÀ¨ Ý(=	YqÙå9óP~1HTTP/1.1 200 OK
+Date: Tue, 14 Mar 2023 16:22:17 GMT
+Content-Type: text/xml; charset="UTF-8"
+Content-Length: 693
+
+    <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+        xmlns:soap-enc="http://schemas.xmlsoap.org/soap/encoding/"
+        xmlns:cwmp="urn:dslforum-org:cwmp-1-0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <soap:Header>
+            <cwmp:ID soap:mustUnderstand="1">1f1e52f5</cwmp:ID>
+        </soap:Header>
+        <soap:Body>
+            <cwmp:SetParameterValues>
+                <ParameterList soap-enc:arrayType="cwmp:ParameterValueStruct[1]">
+                    <ParameterValueStruct>
+                        <Name>Device.IP.Interface.9.LowerLayers</Name>
+                        <Value xsi:type="xsd:string">Bridging.Bridge.1</Value>
+                    </ParameterValueStruct>
+                </ParameterList>
+                <ParameterKey>n/a</ParameterKey>
+            </cwmp:SetParameterValues>
+        </soap:Body>
+    </soap:Envelope>
+
+    Ð7E- ø¦¼E×Æ^@@tÀ¨ ÝMðÐØ (=å6oYqÙPô;lPOST /acs/ HTTP/1.1
+Host: ump.voip.bahnhof.net:10301
+User-Agent: AVSystem_libcwmp-3.0.12
+Cookie: AVSSESSIONID=1R1qweo8E6jo8pNmaV5fE8fTGOP4XWGx9Gu4pIF5HGEQ9tLKE1zNyQ
+Authorization: Digest username="4850000222300561", realm="ACSRealm", nonce="fAuh8X9RJroeNlWTCttDfcvHNFaY+1Qt", uri="/acs/", qop="auth", nc=70, cnonce="jwSfGukW5VfgXUo", response="80828c63e633f9232a6b69b3f3e4431a"
+Content-Type: text/xml;
+Content-Length: 469
+
+Ð7E- ø¦¼E@@²þÀ¨ ÝMðÐØ¦((=L:áeF[ÖPmàÅ<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:soap-enc="http://schemas.xmlsoap.org/soap/encoding/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:cwmp="urn:dslforum-org:cwmp-1-0">
+    <soap:Header>
+        <cwmp:ID soap:mustUnderstand="1">rw7zbz4voKI0XQVKAOuQT7eNYtzPwiXleckDam9O6RMcqruyGoOht24Rt2ppkKY</cwmp:ID>
+    </soap:Header>
+    <soap:Body>
+        <cwmp:Inform>
+            <DeviceId>
+                <Manufacturer>ICOTERA</Manufacturer>
+                <OUI>001E80</OUI>
+                <ProductClass>Router</ProductClass>
+                <SerialNumber>4850000222300561</SerialNumber>
+            </DeviceId>
+            <Event soap-enc:arrayType="cwmp:EventStruct[2]">
+                <EventStruct>
+                    <EventCode>0 BOOTSTRAP</EventCode>
+                    <CommandKey></CommandKey>
+                </EventStruct>
+                <EventStruct>
+                    <EventCode>1 BOOT</EventCode>
+                    <CommandKey></CommandKey>
+                </EventStruct>
+            </Event>
+            <MaxEnvelopes>1</MaxEnvelopes>
+            <CurrentTime>2023-03-14T17:20:50+00:00</CurrentTime>
+            <RetryCount>0</RetryCount>
+            <ParameterList soap-enc:arrayType="cwmp:ParameterValueStruct[7]">
+                <ParameterValueStruct>
+                    <Name>Device.RootDataModelVersion</Name>
+                    <Value xsi:type="xsd:string">2.8</Value>
+                </ParameterValueStruct>
+                <ParameterValueStruct>
+                    <Name>Device.DeviceInfo.HardwareVersion</Name>
+                    <Value xsi:type="xsd:string">Icotera i4850-00</Value>
+                </ParameterValueStruct>
+                <ParameterValueStruct>
+                    <Name>Device.DeviceInfo.SoftwareVersion</Name>
+                    <Value xsi:type="xsd:string">4850-1.16.5_1</Value>
+                </
+                
+
+Ð7E- ø¦¼E¡ @@µèÀ¨ ÝMðÐØ¦((=L:æÉF[ÖPmõuct>
+                <ParameterValueStruct>
+                    <Name>Device.DeviceInfo.ProvisioningCode</Name>
+                    <Value xsi:type="xsd:string"></Value>
+                </ParameterValueStruct>
+                <ParameterValueStruct>
+                    <Name>Device.ManagementServer.ConnectionRequestURL</Name>
+                    <Value xsi:type="xsd:string">http://192.168.10.221:8080/</Value>
+                </ParameterValueStruct>
+                <ParameterValueStruct>
+                    <Name>Device.ManagementServer.ParameterKey</Name>
+                    <Value xsi:type="xsd:string"></Value>
+                </ParameterValueStruct>
+                <ParameterValueStruct>
+                    <Name>Device.ManagementServer.AliasBasedAddressing</Name>
+                    <Value xsi:type="xsd:boolean">false</Value>
+                </ParameterValueStruct>
+            </ParameterList>
+        </cwmp:Inform>
+    </soap:Body>
+</soap:Envelope>
+
+
+
+ø¦¼Ð7E- EÛ~½@8×MðÐØÀ¨ Ý(=¦(F[ÖL:éBP~ÇHTTP/1.1 401 Unauthorized
+WWW-Authenticate: Digest realm="ACSRealm", domain="/acs", nonce="fAuh8X9RJroeNlWTCttDfcvHNFaY+1Qt", algorithm=MD5, qop="auth", stale=false
+Date: Tue, 14 Mar 2023 16:20:50 GMT
+Cache-Control: must-revalidate,no-cache,no-store
+Content-Type: text/html;charset=iso-8859-1
+Content-Length: 370
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1"/>
+        <title>Error 401 Unauthorized</title>
+    </head>
+    <body>
+        <h2>HTTP ERROR 401 Unauthorized</h2>
+        <table>
+            <tr>
+                <th>URI:</th>
+                <td>/acs/</td>
+            </tr>
+            <tr>
+                <th>STATUS:</th>
+                <td>401</td>
+            </tr>
+            <tr>
+                <th>MESSAGE:</th>
+                <td>Unauthorized</td>
+            </tr>
+            <tr>
+                <th>SERVLET:</th>
+                <td>-</td>
+            </tr>
+        </table>
+
+    </body>
+</html>
+
+
+Ð7E- ø¦¼E(Ã@@&]À¨ ÝMðÐØÕÌ(=MRYd ¬ÇPmüñPOST /acs/ HTTP/1.1
+Host: ump.voip.bahnhof.net:10301
+User-Agent: AVSystem_libcwmp-3.0.12
+Authorization: Digest username="4850000222300561", realm="ACSRealm", nonce="fAuh8X9RJroeNlWTCttDfcvHNFaY+1Qt", uri="/acs/", qop="auth", nc=1, cnonce="C7i7d2VjXHQLA3y", response="7e6b1a6d1f52f439abced13cd995983c"
+Content-Type: text/xml;
+Content-Length: 2013
+
+ø¦¼Ð7E- EFþ@5MðÐØÀ¨ Ý(=ÕÌd ¬ÇM[P~Þ¨HTTP/1.1 200 OK
+Date: Tue, 14 Mar 2023 16:20:50 GMT
+Set-Cookie: AVSSESSIONID=1R1qweo8E6jo8pNmaV5fE8fTGOP4XWGx9Gu4pIF5HGEQ9tLKE1zNyQ; Path=/
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Content-Type: text/xml; charset="UTF-8"
+Content-Length: 512
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:soap-enc="http://schemas.xmlsoap.org/soap/encoding/"
+    xmlns:cwmp="urn:dslforum-org:cwmp-1-0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Header>
+        <cwmp:ID soap:mustUnderstand="1">rw7zbz4voKI0XQVKAOuQT7eNYtzPwiXleckDam9O6RMcqruyGoOht24Rt2ppkKY</cwmp:ID>
+    </soap:Header>
+    <soap:Body>
+        <cwmp:InformResponse>
+            <MaxEnvelopes>1</MaxEnvelopes>
+        </cwmp:InformResponse>
+    </soap:Body>
+</soap:Envelope>
+
+Ð7E- ø¦¼EÔ(Ç@@&À¨ ÝMðÐØÕÌ(=M[d ¯¾PÌÖÛPOST /acs/ HTTP/1.1
+Host: ump.voip.bahnhof.net:10301
+User-Agent: AVSystem_libcwmp-3.0.12
+Cookie: AVSSESSIONID=1R1qweo8E6jo8pNmaV5fE8fTGOP4XWGx9Gu4pIF5HGEQ9tLKE1zNyQ
+Authorization: Digest username="4850000222300561", realm="ACSRealm", nonce="fAuh8X9RJroeNlWTCttDfcvHNFaY+1Qt", uri="/acs/", qop="auth", nc=2, cnonce="C7i7d2VjXHQLA3y", response="2c5c034607ad8c1fdaccf7d9d357c033"
+Content-Type: text/xml;
+Content-Length: 0
+
+
+Ð7E- ø¦¼EÖ(Ì@@&À¨ ÝMðÐØÕÌ(=Mfd ·{PÑãPOST /acs/ HTTP/1.1
+Host: ump.voip.bahnhof.net:10301
+User-Agent: AVSystem_libcwmp-3.0.12
+Cookie: AVSSESSIONID=1R1qweo8E6jo8pNmaV5fE8fTGOP4XWGx9Gu4pIF5HGEQ9tLKE1zNyQ
+Authorization: Digest username="4850000222300561", realm="ACSRealm", nonce="fAuh8X9RJroeNlWTCttDfcvHNFaY+1Qt", uri="/acs/", qop="auth", nc=5, cnonce="C7i7d2VjXHQLA3y", response="8f8b09b6d51705a5cac1de223e966ddf"
+Content-Type: text/xml;
+Content-Length: 657
+
+Ð7E- ø¦¼E(Ï@@%SÀ¨ ÝMðÐØÕÌ(=Mlwd ¹íP$Z<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+xmlns:soap-enc="http://schemas.xmlsoap.org/soap/encoding/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+xmlns:cwmp="urn:dslforum-org:cwmp-1-0">
+<soap:Header>
+    <cwmp:ID soap:mustUnderstand="1">3f4c07af</cwmp:ID>
+</soap:Header>
+<soap:Body>
+    <soap:Fault>
+        <faultcode>Client</faultcode>
+        <faultstring>CWMP Fault</faultstring>
+        <detail>
+            <cwmp:Fault>
+                <FaultCode>9005</FaultCode>
+                <FaultString>Parameter Device.WANDevice. not found</FaultString>
+            </cwmp:Fault>
+        </detail>
+    </soap:Fault>
+</soap:Body>
+</soap:Envelope>
+
+
+Ð7E- ø¦¼EÖ(Ô@@&À¨ ÝMðÐØÕÌ(=Mvýd Á[P	sPOST /acs/ HTTP/1.1
+Host: ump.voip.bahnhof.net:10301
+User-Agent: AVSystem_libcwmp-3.0.12
+Cookie: AVSSESSIONID=1R1qweo8E6jo8pNmaV5fE8fTGOP4XWGx9Gu4pIF5HGEQ9tLKE1zNyQ
+Authorization: Digest username="4850000222300561", realm="ACSRealm", nonce="fAuh8X9RJroeNlWTCttDfcvHNFaY+1Qt", uri="/acs/", qop="auth", nc=9, cnonce="GrBgVEorUCB8q3L", response="e480f1c56410abb4303b52f4d1632973"
+Content-Type: text/xml;
+Content-Length: 622
+
+ø¦¼Ð7E- Elß¦@5xMðÐØÀ¨ Ý(=	Ys*æ}PX÷HTTP/1.1 200 OK
+Date: Tue, 14 Mar 2023 16:22:26 GMT
+Content-Type: text/xml; charset="UTF-8"
+Content-Length: 718
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+xmlns:soap-enc="http://schemas.xmlsoap.org/soap/encoding/"
+xmlns:cwmp="urn:dslforum-org:cwmp-1-0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<soap:Header>
+    <cwmp:ID soap:mustUnderstand="1">e3dfd1d7</cwmp:ID>
+</soap:Header>
+<soap:Body>
+    <cwmp:SetParameterValues>
+        <ParameterList soap-enc:arrayType="cwmp:ParameterValueStruct[1]">
+            <ParameterValueStruct>
+                <Name>Device.UserInterface.X_001E80_WEB.OperatorPassword</Name>
+                <Value xsi:type="xsd:string">cZ.YmuU#,8Y7(!/6,R6C(9_m;</Value>
+            </ParameterValueStruct>
+        </ParameterList>
+        <ParameterKey>n/a</ParameterKey>
+    </cwmp:SetParameterValues>
+</soap:Body>
+</soap:Envelope>
+
+
+ø¦¼Ð7E- Elß£@5xMðÐØÀ¨ Ý(=	YsææøPM¾(HTTP/1.1 200 OK
+Date: Tue, 14 Mar 2023 16:22:26 GMT
+Content-Type: text/xml; charset="UTF-8"
+Content-Length: 718
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+xmlns:soap-enc="http://schemas.xmlsoap.org/soap/encoding/"
+xmlns:cwmp="urn:dslforum-org:cwmp-1-0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<soap:Header>
+    <cwmp:ID soap:mustUnderstand="1">d7d15772</cwmp:ID>
+</soap:Header>
+<soap:Body>
+    <cwmp:SetParameterValues>
+        <ParameterList soap-enc:arrayType="cwmp:ParameterValueStruct[1]">
+            <ParameterValueStruct>
+                <Name>Device.UserInterface.X_001E80_WEB.CustomerPassword</Name>
+                <Value xsi:type="xsd:string">cZ.YmuU#,8Y7(!/6,R6C(9_m;</Value>
+            </ParameterValueStruct>
+        </ParameterList>
+        <ParameterKey>n/a</ParameterKey>
+    </cwmp:SetParameterValues>
+</soap:Body>
+</soap:Envelope>
+
+
+ø¦¼Ð7E- Edß @5x¥MðÐØÀ¨ Ý(=	YsªæsPBA¯HTTP/1.1 200 OK
+Date: Tue, 14 Mar 2023 16:22:25 GMT
+Content-Type: text/xml; charset="UTF-8"
+Content-Length: 710
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+xmlns:soap-enc="http://schemas.xmlsoap.org/soap/encoding/"
+xmlns:cwmp="urn:dslforum-org:cwmp-1-0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<soap:Header>
+    <cwmp:ID soap:mustUnderstand="1">a19404c4</cwmp:ID>
+</soap:Header>
+<soap:Body>
+    <cwmp:SetParameterValues>
+        <ParameterList soap-enc:arrayType="cwmp:ParameterValueStruct[1]">
+            <ParameterValueStruct>
+                <Name>Device.UserInterface.X_001E80_Cli.Password</Name>
+                <Value xsi:type="xsd:string">cZ.YmuU#,8Y7(!/6,R6C(9_m;</Value>
+            </ParameterValueStruct>
+        </ParameterList>
+        <ParameterKey>n/a</ParameterKey>
+    </cwmp:SetParameterValues>
+</soap:Body>
+</soap:Envelope>
+
+ø¦¼Ð7E- Eaß@5x·MðÐØÀ¨ Ý(=	YrüÙæÚP
+9HTTP/1.1 200 OK
+Date: Tue, 14 Mar 2023 16:22:25 GMT
+Content-Type: text/xml; charset="UTF-8"
+Content-Length: 707
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+xmlns:soap-enc="http://schemas.xmlsoap.org/soap/encoding/"
+xmlns:cwmp="urn:dslforum-org:cwmp-1-0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<soap:Header>
+    <cwmp:ID soap:mustUnderstand="1">0a89314f</cwmp:ID>
+</soap:Header>
+<soap:Body>
+    <cwmp:SetParameterValues>
+        <ParameterList soap-enc:arrayType="cwmp:ParameterValueStruct[1]">
+            <ParameterValueStruct>
+                <Name>Device.UserInterface.X_001E80_WEB.Filter.Rule.3.SrcIP</Name>
+                <Value xsi:type="xsd:string">100.64.1.18</Value>
+            </ParameterValueStruct>
+        </ParameterList>
+        <ParameterKey>n/a</ParameterKey>
+    </cwmp:SetParameterValues>
+</soap:Body>
+</soap:Envelope>
+
+ø¦¼Ð7E- Ecß@5xÄMðÐØÀ¨ Ý(=	YrìÇætAP×'HTTP/1.1 200 OK
+Date: Tue, 14 Mar 2023 16:22:25 GMT
+Content-Type: text/xml; charset="UTF-8"
+Content-Length: 709
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+xmlns:soap-enc="http://schemas.xmlsoap.org/soap/encoding/"
+xmlns:cwmp="urn:dslforum-org:cwmp-1-0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<soap:Header>
+    <cwmp:ID soap:mustUnderstand="1">42b9ac80</cwmp:ID>
+</soap:Header>
+<soap:Body>
+    <cwmp:SetParameterValues>
+        <ParameterList soap-enc:arrayType="cwmp:ParameterValueStruct[1]">
+            <ParameterValueStruct>
+                <Name>Device.UserInterface.X_001E80_WEB.Filter.Rule.2.SrcIP</Name>
+                <Value xsi:type="xsd:string">213.136.33.10</Value>
+            </ParameterValueStruct>
+        </ParameterList>
+        <ParameterKey>n/a</ParameterKey>
+    </cwmp:SetParameterValues>
+</soap:Body>
+</soap:Envelope>
+
+ø¦¼Ð7E- Eaßd@5xäMðÐØÀ¨ Ý(=	YrÌ·æQPkeHTTP/1.1 200 OK
+Date: Tue, 14 Mar 2023 16:22:24 GMT
+Content-Type: text/xml; charset="UTF-8"
+Content-Length: 707
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+xmlns:soap-enc="http://schemas.xmlsoap.org/soap/encoding/"
+xmlns:cwmp="urn:dslforum-org:cwmp-1-0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<soap:Header>
+    <cwmp:ID soap:mustUnderstand="1">04bf060a</cwmp:ID>
+</soap:Header>
+<soap:Body>
+    <cwmp:SetParameterValues>
+        <ParameterList soap-enc:arrayType="cwmp:ParameterValueStruct[1]">
+            <ParameterValueStruct>
+                <Name>Device.UserInterface.X_001E80_SSH.Filter.Rule.2.SrcIP</Name>
+                <Value xsi:type="xsd;string">100.64.1.18</Value>
+            </ParameterValueStruct>
+        </ParameterList>
+        <ParameterKey>n/a</ParameterKey>
+    </cwmp:SetParameterValues>
+</soap:Body>
+</soap:Envelope>
+
+ø¦¼Ð7E- EcßU@5xñMðÐØÀ¨ Ý(=	Yr¼§æ?vP5OÙHTTP/1.1 200 OK
+Date: Tue, 14 Mar 2023 16:22:23 GMT
+Content-Type: text/xml; charset="UTF-8"
+Content-Length: 709
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+xmlns:soap-enc="http://schemas.xmlsoap.org/soap/encoding/"
+xmlns:cwmp="urn:dslforum-org:cwmp-1-0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<soap:Header>
+    <cwmp:ID soap:mustUnderstand="1">2da9efc6</cwmp:ID>
+</soap:Header>
+<soap:Body>
+    <cwmp:SetParameterValues>
+        <ParameterList soap-enc:arrayType="cwmp:ParameterValueStruct[1]">
+            <ParameterValueStruct>
+                <Name>Device.UserInterface.X_001E80_SSH.Filter.Rule.1.SrcIP</Name>
+                <Value xsi:type="xsd;string">213.136.33.10</Value>
+            </ParameterValueStruct>
+        </ParameterList>
+        <ParameterKey>n/a</ParameterKey>
+    </cwmp:SetParameterValues>
+</soap:Body>
+</soap:Envelope>
+
+ø¦¼Ð7E- EG @5öMðÐØÀ¨ Ý(=ÕÌd ËKMiP~&JHTTP/1.1 200 OK
+Date: Tue, 14 Mar 2023 16:20:51 GMT
+Content-Type: text/xml; charset="UTF-8"
+Content-Length: 502
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+xmlns:soap-enc="http://schemas.xmlsoap.org/soap/encoding/"
+xmlns:cwmp="urn:dslforum-org:cwmp-1-0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<soap:Header>
+    <cwmp:ID soap:mustUnderstand="1">3f771c6a</cwmp:ID>
+</soap:Header>
+<soap:Body>
+    <cwmp:AddObject>
+        <ObjectName>Device.XMPP.Connection.</ObjectName>
+        <ParameterKey>278ec393</ParameterKey>
+    </cwmp:AddObject>
+</soap:Body>
+</soap:Envelope>
+
+ø¦¼Ð7E- EG@5ûMðÐØÀ¨ Ý(=ÕÌd ÆfM
+P~²¨HTTP/1.1 200 OK
+Date: Tue, 14 Mar 2023 16:20:51 GMT
+Content-Type: text/xml; charset="UTF-8"
+Content-Length: 503
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+xmlns:soap-enc="http://schemas.xmlsoap.org/soap/encoding/"
+xmlns:cwmp="urn:dslforum-org:cwmp-1-0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<soap:Header>
+    <cwmp:ID soap:mustUnderstand="1">6baf0830</cwmp:ID>
+</soap:Header>
+<soap:Body>
+    <cwmp:GetParameterNames>
+        <ParameterPath>Device.XMPP.</ParameterPath>
+        <NextLevel>true</NextLevel>
+    </cwmp:GetParameterNames>
+</soap:Body>
+</soap:Envelope>
+
+Ð7E- ø¦¼E(Ã@@&]À¨ ÝMðÐØÕÌ(=MRYd ¬ÇPmüñPOST /acs/ HTTP/1.1
+Host: ump.voip.bahnhof.net:10301
+User-Agent: AVSystem_libcwmp-3.0.12
+Authorization: Digest username="4850000222300561", realm="ACSRealm", nonce="fAuh8X9RJroeNlWTCttDfcvHNFaY+1Qt", uri="/acs/", qop="auth", nc=1, cnonce="C7i7d2VjXHQLA3y", response="7e6b1a6d1f52f439abced13cd995983c"
+Content-Type: text/xml;
+Content-Length: 2013
+
+Ð7E- ø¦¼Eh)>@@"À¨ ÝMðÐØÕÌ(=Mxæd!3hP¥d¥erver.PeriodicInformEnable</Name>
+<Writable>true</Writable>
+</ParameterInfoStruct>
+<ParameterInfoStruct>
+<Name>Device.ManagementServer.PeriodicInformInterval</Name>
+<Writable>true</Writable>
+</ParameterInfoStruct>
+<ParameterInfoStruct>
+<Name>Device.ManagementServer.PeriodicInformTime</Name>
+<Writable>true</Writable>
+</ParameterInfoStruct>
+<ParameterInfoStruct>
+<Name>Device.ManagementServer.ParameterKey</Name>
+<Writable>false</Writable>
+</ParameterInfoStruct>
+<ParameterInfoStruct>
+<Name>Device.ManagementServer.ConnectionRequestURL</Name>
+<Writable>false</Writable>
+</ParameterInfoStruct>
+<ParameterInfoStruct>
+<Name>Device.ManagementServer.ConnectionRequestUsername</Name>
+<Writable>true</Writable>
+</ParameterInfoStruct>
+<ParameterInfoStruct>
+<Name>Device.ManagementServer.ConnectionRequestPassword</Name>
+<Writable>true</Writable>
+</ParameterInfoStruct>
+<ParameterInfoStruct>
+<Name>Device.ManagementServer.AliasBasedAddressing</Name>
+<Writable>false</Writable>
+</ParameterInfoStruct>
+<ParameterInfoStruct>
+<Name>Device.ManagementServer.X_001E80_Port</Name>
+<Writable>true</Writable>
+</ParameterInfoStruct>
+<ParameterInfoStruct>
+<Name>Device.ManagementServer.X_001E80_NAT</Name>
+<Writable>true</Writable>
+</ParameterInfoStruct>
+<ParameterInfoStruct>
+<Name>Device.ManagementServer.X_001E80_CatvDisplayed</Name>
+<Writable>false</Writable>
+</ParameterInfoStruct>
+<ParameterInfoStruc
+
+Ð7E- ø¦¼E0)9@@AÀ¨ ÝMðÐØÕÌ(=M^d!3hP¥úp1000
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+xmlns:soap-enc="http://schemas.xmlsoap.org/soap/encoding/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+xmlns:cwmp="urn:dslforum-org:cwmp-1-0">
+<soap:Header>
+<cwmp:ID soap:mustUnderstand="1">8985ce78</cwmp:ID>
+</soap:Header>
+<soap:Body>
+<cwmp:GetParameterNamesResponse>
+<ParameterList soap-enc:arrayType="cwmp:ParameterInfoStruct[14489]">
+    <ParameterInfoStruct>
+        <Name>Device.</Name>
+        <Writable>false</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.RootDataModelVersion</Name>
+        <Writable>false</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.DeviceInfo.</Name>
+        <Writable>false</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.DeviceInfo.Manufacturer</Name>
+        <Writable>false</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.DeviceInfo.ManufacturerOUI</Name>
+        <Writable>false</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.DeviceInfo.ModelName</Name>
+        <Writable>false</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.DeviceInfo.Description</Name>
+        <Writable>false</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.DeviceInfo.ProductClass</Name>
+        <Writable>false</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.DeviceInfo.SerialNumber</Name>
+        <Writable>false</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.DeviceInfo.HardwareVersion</Name>
+        <Writable>false</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.DeviceInfo.SoftwareVersion</Name>
+        <Writable>false</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.DeviceInfo.UpTime</Name>
+        <Writable>false</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.DeviceInfo.X_001E80_Hostname</Name>
+        <Writable>true</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.DeviceInfo.ProvisioningCode</Name>
+        <Writable>true</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.DeviceInfo.VendorLogFile.</Name>
+        <Writable>false</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.DeviceInfo.VendorLogFile.1.</Name>
+        <Writable>false</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.DeviceInfo.VendorLogFile.1.Name</Name>
+        <Writable>false</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.DeviceInfo.VendorLogFile.1.X_001E80_Content</Name>
+        <Writable>false</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.DeviceInfo.VendorLogFile.1.OUI</Name>
+        <Writable>true</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.DeviceInfo.VendorLogFile.1.OUI</Name>
+        <Writable>true</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.DeviceInfo.VendorLogFile.1.OUI</Name>
+        <Writable>true</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.DeviceInfo.VendorLogFile.1.OUI</Name>
+        <Writable>true</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.DeviceInfo.VendorLogFile.1.OUI</Name>
+        <Writable>true</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.DeviceInfo.VendorLogFile.1.OUI</Name>
+        <Writable>true</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.DeviceInfo.VendorLogFile.1.OUI</Name>
+        <Writable>true</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.DeviceInfo.VendorLogFile.1.OUI</Name>
+        <Writable>true</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.DeviceInfo.VendorLogFile.1.OUI</Name>
+        <Writable>true</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.DeviceInfo.VendorLogFile.1.OUI</Name>
+        <Writable>true</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.DeviceInfo.VendorLogFile.1.OUI</Name>
+        <Writable>true</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.DeviceInfo.VendorLogFile.1.OUI</Name>
+        <Writable>true</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.DeviceInfo.VendorLogFile.1.OUI</Name>
+        <Writable>true</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.DeviceInfo.VendorLogFile.1.OUI</Name>
+        <Writable>true</W
+Ð7E- ø¦¼E ð)E@@uÀ¨ ÝMðÐØÕÌ(=M6d!3hP¥õ01000
+ameterInfoStruct>
+        <Name>Device.UserInterface.X_001E80_SSH.Filter.Rule.2.Description</Name>
+        <Writable>true</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.UserInterface.X_001E80_SSH.Filter.Rule.2.InIf</Name>
+        <Writable>true</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.UserInterface.X_001E80_SSH.Filter.Rule.2.SrcIP</Name>
+        <Writable>true</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.UserInterface.X_001E80_SSH.Filter.Rule.2.SrcIPNetmask</Name>
+        <Writable>true</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.UserInterface.X_001E80_SSH.Filter.Rule.2.Action</Name>
+        <Writable>true</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.UserInterface.X_001E80_SSH.Authentication.</Name>
+        <Writable>false</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.UserInterface.X_001E80_SSH.Authentication.Password.</Name>
+        <Writable>false</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.UserInterface.X_001E80_SSH.Authentication.Password.Enable</Name>
+        <Writable>true</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.UserInterface.X_001E80_SSH.LoginRetry.</Name>
+        <Writable>false</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.UserInterface.X_001E80_SSH.LoginRetry.Limit</Name>
+        <Writable>true</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.UserInterface.X_001E80_SSH.LoginRetry.Attempts</Name>
+        <Writable>true</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.UserInterface.X_001E80_SSH.LoginRetry.Period</Name>
+        <Writable>true</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.UserInterface.X_001E80_SSH.LoginRetry.BackOff</Name>
+        <Writable>true</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.UserInterface.X_001E80_SNMP.</Name>
+        <Writable>false</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.UserInterface.X_001E80_SNMP.Enable</Name>
+        <Writable>true</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.UserInterface.X_001E80_SNMP.NAT</Name>
+        <Writable>true</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.UserInterface.X_001E80_SNMP.Port</Name>
+        <Writable>true</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.UserInterface.X_001E80_SNMP.CoRead</Name>
+        <Writable>true</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.UserInterface.X_001E80_SNMP.CoWrite</Name>
+        <Writable>true</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.UserInterface.X_001E80_SNMP.SysName</Name>
+        <Writable>true</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.UserInterface.X_001E80_SNMP.SysLocation</Name>
+        <Writable>true</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>De
+
+
+        Ð7E- ø¦¼Eh)G@@!ûÀ¨ ÝMðÐØÕÌ(=M¨þd!3hP¥0vice.UserInterface.X_001E80_SNMP.SysContact</Name>
+        <Writable>true</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.UserInterface.X_001E80_SNMP.Filter.</Name>
+        <Writable>false</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.UserInterface.X_001E80_SNMP.Filter.Enable</Name>
+        <Writable>true</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.UserInterface.X_001E80_SNMP.Filter.Rule.</Name>
+        <Writable>true</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.UserInterface.X_001E80_SNMP.LoginRetry.</Name>
+        <Writable>false</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.UserInterface.X_001E80_SNMP.LoginRetry.Limit</Name>
+        <Writable>true</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.UserInterface.X_001E80_SNMP.LoginRetry.Attempts</Name>
+        <Writable>true</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.UserInterface.X_001E80_SNMP.LoginRetry.Period</Name>
+        <Writable>true</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.UserInterface.X_001E80_SNMP.LoginRetry.BackOff</Name>
+        <Writable>true</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.UserInterface.X_001E80_Telnet.</Name>
+        <Writable>false</Writable>
+    </ParameterInfoStruct>
+    <ParameterInfoStruct>
+        <Name>Device.UserInterface.X_001E80_Telnet.Enable</Name>
+        <Writa
+Ð7E- ø¦¼E ð)H@@rÀ¨ ÝMðÐØÕÌ(=M®>d!3hP¥õ01000
+ble>true</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_Telnet.NAT</Name><Writable>true</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_Telnet.Port</Name><Writable>true</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_Telnet.Filter.</Name><Writable>false</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_Telnet.Filter.Enable</Name><Writable>true</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_Telnet.Filter.Rule.</Name><Writable>true</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_Telnet.LoginRetry.</Name><Writable>false</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_Telnet.LoginRetry.Limit</Name><Writable>true</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_Telnet.LoginRetry.Attempts</Name><Writable>true</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_Telnet.LoginRetry.Period</Name><Writable>true</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_Telnet.LoginRetry.BackOff</Name><Writable>true</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_SerialConsole.</Name><Writable>false</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_SerialConsole.Port</Name><Writable>true</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_Syslog.</Name><Writable>false</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_Syslog.Enable</Name><Writable>true</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_Syslog.Server</Name><Writable>true</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_Syslog.Level</Name><Writable>true</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_Locallog.</Name><Writable>false</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_Locallog.Level</Name><Writable>true</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_Cli.</Name><Writable>false</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_Cli.Timeout</Name><Writable>true</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_Cli.Username</Name><Writable>true</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_Cl
+
+.Password</Name><Writable>true</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_Cli.Monitoring.</Name><Writable>false</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_Cli.Monitoring.Username</Name><Writable>true</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_Cli.Monitoring.Password</Name><Writable>true</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_Cli.Monitoring.MaxSessions</Name><Writable>true</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_Login.</Name><Writable>false</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_Login.Type</Name><Writable>true</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_Login.Role.</Name><Writable>true</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_Login.User.</Name><Writable>true</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_Watchdog.</Name><Writable>false</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_Watchdog.Enable</Name><Writable>true</Writable></ParameterInfoStruct><ParameterInfoSt
+Ð7E- ø¦¼E ð)K@@oÀ¨ ÝMðÐØÕÌ(=M¾Fd!3hP¥õ01000
+ruct><Name>Device.UserInterface.X_001E80_Protect.</Name><Writable>false</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_Protect.Unexpected.</Name><Writable>false</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_Protect.Unexpected.Accept</Name><Writable>true</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_SideButton.</Name><Writable>false</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_SideButton.WPS</Name><Writable>true</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_SideButton.LedAutoOff</Name><Writable>true</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_WEB.</Name><Writable>false</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_WEB.Enable</Name><Writable>true</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_WEB.Port</Name><Writable>true</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_WEB.NAT</Name><Writable>true</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_WEB.Language</Name><Writable>true</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_WEB.ListenAll</Name><Writable>true</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_WEB.CustomerEnable</Name><Writable>true</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_WEB.CustomerUsername</Name><Writable>true</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_WEB.CustomerPassword</Name><Writable>true</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_WEB.OperatorEnable</Name><Writable>true</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_WEB.OperatorUsername</Name><Writable>true</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_WEB.OperatorPassword</Name><Writable>true</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_WEB.HttpEnable</Name><Writable>true</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_WEB.HttpsEnable</Name><Writable>true</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_WEB.HttpsPort</Name><Writable>true</Writable></ParameterInfoStruct><ParameterInfoStruct><Name>Device.UserInterface.X_001E80_WEB.HttpsFilters</Name><Writable>true</Writable></ParameterInfoStruc
+
+
+
+ø¦¼Ð7E- E\Þâ@5ykMðÐØÀ¨ Ý(=	YrAYåûP~ã&HTTP/1.1 200 OK
+Date: Tue, 14 Mar 2023 16:22:20 GMT
+Content-Type: text/xml; charset="UTF-8"
+Content-Length: 702
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+            xmlns:soap-enc="http://schemas.xmlsoap.org/soap/encoding/"
+            xmlns:cwmp="urn:dslforum-org:cwmp-1-0"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+            <soap:Header>
+                <cwmp:ID soap:mustUnderstand="1">39cddbb2</cwmp:ID>
+            </soap:Header>
+            <soap:Body>
+                <cwmp:SetParameterValues>
+                    <ParameterList soap-enc:arrayType="cwmp:ParameterValueStruct[1]">
+                        <ParameterValueStruct>
+                            <Name>Device.WiFi.Radio.2.X_001E80_Description</Name>
+                            <Value xsi:type="xsd:string">5GHz WiFi interface</Value>
+                        </ParameterValueStruct>
+                    </ParameterList>
+                    <ParameterKey>n/a</ParameterKey>
+                </cwmp:SetParameterValues>
+            </soap:Body>
+        </soap:Envelope>
+
+        ø¦¼Ð7E- E_ß%@5y%MðÐØÀ¨ Ý(=	Yr}æ&PöHTTP/1.1 200 OK
+Date: Tue, 14 Mar 2023 16:22:22 GMT
+Content-Type: text/xml; charset="UTF-8"
+Content-Length: 705
+
+        <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+            xmlns:soap-enc="http://schemas.xmlsoap.org/soap/encoding/"
+            xmlns:cwmp="urn:dslforum-org:cwmp-1-0"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+            <soap:Header>
+                <cwmp:ID soap:mustUnderstand="1">19500331</cwmp:ID>
+            </soap:Header>
+            <soap:Body>
+                <cwmp:SetParameterValues>
+                    <ParameterList soap-enc:arrayType="cwmp:ParameterValueStruct[1]">
+                        <ParameterValueStruct>
+                            <Name>Device.Services.VoiceService.1.X_001E80_Filter.Rule.1.Enable</Name>
+                            <Value xsi:type="xsd:boolean">1</Value>
+                        </ParameterValueStruct>
+                    </ParameterList>
+                    <ParameterKey>n/a</ParameterKey>
+                </cwmp:SetParameterValues>
+            </soap:Body>
+        </soap:Envelope>

@@ -1,0 +1,52 @@
+root:$1$ib17LY19$lH8EkAqVn5qnpaNRvdWxZ1:0:0:root:/tmp:/bin/sh
+
+super,1b3231655cebb7a1f783eddf27d254ca,0 = super
+admin,21232f297a57a5a743894a0e4a801fc3,1 = admin
+user,ee11cbb19052e40b07aac0ca060c23ee,2  = user
+
+call_qcsapi -u -q enable_interface wifi0 0
+call_qcsapi -u -q rfenable 0
+
+setenv bootargs "$"
+bootargs=console=ttyS0,115200n8 earlyprintk=1 hw_config_id=65535 rdinit=/bin/sh
+topaz>printenv
+bootdelay=2
+bootfile=topaz-linux.lzma.img
+bootcmd=tftp;bootm
+loadaddr=0x83000000
+max_tx_power=23
+safety_image_addr=0x40000
+safety_image_size=0x7a0000
+live_image_addr=0x7e0000
+live_image_size=0x7a0000
+ethaddr=00:26:86:00:00:00
+wifiaddr=00:26:86:00:00:01
+hw_config_id=65535
+bootargs=console=ttyS0,115200n8 earlyprintk=1 hw_config_id=65535
+ext_lna_gain=12
+antenna_num=4
+antenna_gain=4506
+ext_lna_bypass_gain=-5
+flash_img=0
+carrier_id=0
+tx_power_cal=0
+ethact=br
+ipaddr=169.254.1.3
+serverip=169.254.1.1
+filepath.txt=cfg 0x00001000 0x00000400
+gpio.bin=cfg 0x00001400 0x00000200
+qtn_regulatory_db.bin=cfg 0x00001600 0x000007e1
+qtn_hw_board_config.bin=cfg 0x00001de1 0x000001c3
+qtn_hw_board_db.bin=cfg 0x00001fa4 0x00000ab6
+eirp_info_eu.txt=cfg 0x00002a5a 0x00000090
+min_tx_power=2
+rx_iq.cal=cfg 0x00002aea 0x00000308
+dc_iq.cal=cfg 0x00002df2 0x00001a30
+pdetector.cal=cfg 0x00004822 0x00000332
+config_data_end=0x00004b54
+calstate=3
+stdin=serial
+stdout=serial
+stderr=serial
+
+Environment size: 965/24572 bytes

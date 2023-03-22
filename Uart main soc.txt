@@ -1,0 +1,601 @@
+
+
+SoC Preloader 1.3.0.4.25190.REL_R2745.NA.lzma (Mon Dec 17 10:54:03 UTC 2018)
+II: Stack @ 0x9fc1fd18 (parameter 736B)
+II: Console... OK
+II: PLL is set by SW: RLX5281: 600MHz; RLX5181: 500MHz; MEM: 300MHz; LX: 200MHz
+II: DRAM is set by TAK software calibration...
+bit:00, max_r_s(0), max_r_l(25), max_w_s(0), max_w_len(31)
+bit:01, max_r_s(0), max_r_l(27), max_w_s(0), max_w_len(31)
+bit:02, max_r_s(0), max_r_l(27), max_w_s(0), max_w_len(31)
+bit:03, max_r_s(0), max_r_l(29), max_w_s(0), max_w_len(31)
+bit:04, max_r_s(0), max_r_l(29), max_w_s(0), max_w_len(31)
+bit:05, max_r_s(0), max_r_l(25), max_w_s(0), max_w_len(31)
+bit:06, max_r_s(0), max_r_l(27), max_w_s(0), max_w_len(31)
+bit:07, max_r_s(0), max_r_l(23), max_w_s(0), max_w_len(31)
+bit:08, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(31)
+bit:09, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(31)
+bit:10, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(31)
+bit:11, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(31)
+bit:12, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(29)
+bit:13, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(31)
+bit:14, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(31)
+bit:15, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(31)
+bit:16, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(31)
+bit:17, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(31)
+bit:18, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(31)
+bit:19, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(31)
+bit:20, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(31)
+bit:21, max_r_s(0), max_r_l(29), max_w_s(0), max_w_len(31)
+bit:22, max_r_s(0), max_r_l(29), max_w_s(0), max_w_len(31)
+bit:23, max_r_s(0), max_r_l(29), max_w_s(0), max_w_len(31)
+bit:24, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(29)
+bit:25, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(31)
+bit:26, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(31)
+bit:27, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(31)
+bit:28, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(29)
+bit:29, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(31)
+bit:30, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(31)
+bit:31, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(31)
+PASSED
+DRCKO: 0000030b
+II: Flash... OK
+II: Stack @ 0x801ffff8
+II: Starting U-Boot...
+II: Inflating U-Boot (0x80000040 -> 0x87c00000)... OK
+II: Starting U-Boot... 
+
+
+U-Boot 2011.12.NA-svn3178 (Dec 17 2018 - 10:54:08)
+
+Board: LUNA
+CPU: RLX5281 600.00 MHz, DSP: RLX5181 500.00 MHz, , DDR3 300MHz, LX:200.00 MHz 
+DRAM:  256 MB
+enter nand_init
+board_nand_init()
+rtk_nand_read_id id_chain is 9580f1c2
+nand: Manufacture ID=0xc2, Chip ID=0xf1, 3thID=0x80, 4thID=0x95, 5thID=0x02, 6thID=0x00
+this->pagemask is 65535
+this->chip_shift is 27
+parameters.bbt_valid is 1
+create_logical_skip_bbt
+detect block 809 is bad 
+detect block 823 is bad 
+detect block 829 is bad 
+detect block 843 is bad 
+detect block 871 is bad 
+detect block 899 is bad 
+detect block 913 is bad 
+detect block 917 is bad 
+detect block 967 is bad 
+detect block 1001 is bad 
+detect block 1007 is bad 
+detect block 1015 is bad 
+detect block 1017 is bad 
+detect block 1023 is bad 
+last skip_block 1010
+nand.c nand_init_chip mtd size is 878bfec4
+128 MiB
+Loading 1179648B env. variables from offset 0x340000
+Net:   LUNA GMAC 
+Warning: eth device name has a space!
+
+-- Choosing u-boot.
+
+NAND read: device 0 offset 0x140000, size 0xc
+ 12 bytes read: OK
+Booting branch value is [1]
+-- U-boot no. 2 will be loaded from addr 0x240000 size = 0x100000
+Slave U-Boot CRC is 0xfbe49cf6
+Slave U-Boot size is 241408
+Slave U-Boot calculcated CRC is 0xfbe49cf6
+Copying 235kB inflated U-Boot (8400004c -> 83c00000)... OK
+Starting U-Boot...
+
+
+U-Boot 2011.12.NA-svn3178 (Jun 21 2021 - 15:38:31)
+
+Board: LUNA
+CPU: RLX5281 600.00 MHz, DSP: RLX5181 500.00 MHz, , DDR3 300MHz, LX:200.00 MHz 
+DRAM:  256 MB
+enter nand_init
+board_nand_init()
+rtk_nand_read_id id_chain is 9580f1c2
+nand: Manufacture ID=0xc2, Chip ID=0xf1, 3thID=0x80, 4thID=0x95, 5thID=0x02, 6thID=0x00
+this->pagemask is 65535
+this->chip_shift is 27
+parameters.bbt_valid is 1
+create_logical_skip_bbt
+detect block 809 is bad 
+detect block 823 is bad 
+detect block 829 is bad 
+detect block 843 is bad 
+detect block 871 is bad 
+detect block 899 is bad 
+detect block 913 is bad 
+detect block 917 is bad 
+detect block 967 is bad 
+detect block 1001 is bad 
+detect block 1007 is bad 
+detect block 1015 is bad 
+detect block 1017 is bad 
+detect block 1023 is bad 
+last skip_block 1010
+nand.c nand_init_chip mtd size is 838bfec4
+128 MiB
+Loading 1179648B env. variables from offset 0x340000
+Net:   LUNA GMAC 
+Warning: eth device name has a space!
+
+** Custom envs: **
+  serial_number	= 4850000222300561
+  ethaddr	= 00:1E:80:F8:A6:BC
+  ethaddr_num	= 12
+  tr069pass	= ce8f1cbf657a684b8a4f2861bbc1d2fa
+  pcb_sn	= 0Y2202000929
+  model_name	= i4850
+  model_number	= i4850-00
+  usb2_ports	= 1
+  usb3_ports	= 1
+  wifi_mask	= 3
+  wan_medium	= copper
+  lan_ports	= 4
+  slic_name	= ZL9642
+  ap_ssid	= FTTH_JZ4627
+  ap_password	= ejizMaurrod5
+  gpon_model	= <NULL>
+  catv		= 0
+  catv_pkg	= 0
+  catv_agc_high	= 0
+  catv_cal_sig	= <NULL>
+  catv_cal_data	= <NULL>
++++ starting time measurement
++++ reset button not pressed
+-- Choosing Linux.
+-- Linux no. 2 will be loaded from addr 0x5300000 size = 0x2700000
+
+NAND read: device 0 offset 0x5300000, size 0xc
+ 12 bytes read: OK
+KERNEL+FS CRC = 0xf9bb3663
+KERNEL SIZE   = 0x245273
+FS SIZE       = 0xfdb000
+
+NAND read: device 0 offset 0x5300000, size 0x122027f
+physical block 809 (06520000) is bad
+ 19006079 bytes read: OK
+Calculated KFS CRC is 0xf9bb3663
+## Booting kernel from Legacy Image at 8400000c ...
+   Image Name:   Linux Kernel Image
+   Created:      2021-06-21  15:37:50 UTC
+   Image Type:   MIPS Linux Kernel Image (lzma compressed)
+   Data Size:    2380339 Bytes = 2.3 MB
+   Load Address: 80000000
+   Entry Point:  80000000
+   Verifying Checksum ... OK
+   Uncompressing Kernel Image ... OK
+
+Starting kernel ...
+
+Linux version 2.6.30.9 (compile@1de0535b65ea) (gcc version 4.4.6 (Realtek RSDK-1.5.6p2) ) #2 Mon Jun 21 15:15:59 UTC 2021 [luna SDK V1.6.2]
+CPU revision is: 0000dc02
+Determined physical RAM map:
+ memory: 02800000 @ 00000000 (usable)
+User-defined physical RAM map:
+ memory: 0e000000 @ 00000000 (usable)
+Zone PFN ranges:
+  Normal   0x00000000 -> 0x0000e000
+Movable zone start PFN for each node
+early_node_map[1] active PFN ranges
+    0: 0x00000000 -> 0x0000e000
+Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 56896
+Kernel command line: init=/init console=ttyS0,115200 mem=224M root=/dev/mtdblock9 rootfstype=squashfs rw mtdparts=nand_flash:1280k(master_boot),1024k(boot1),1024k(boot2),1152k(env),13184k(config),1792k(data),25600k(custom),39936k(kfs1),39936k(kfs2),16625664@89412223(rfs2),134217728@0(all)
+root_dev_setup line 174 fw_arg0 8
+root_dev_setup line 178 root: /dev/mtdblock9
+icache: 64kB/32B, dcache: 32kB/32B, scache: 0kB/0B
+NR_IRQS:128
+PID hash table entries: 1024 (order: 10, 4096 bytes)
+console [ttyS0] enabled
+Dentry cache hash table entries: 32768 (order: 5, 131072 bytes)
+Inode-cache hash table entries: 16384 (order: 4, 65536 bytes)
+Memory: 195524k/229376k available (9792k kernel code, 33608k reserved, 1817k data, 140k init, 0k highmem)
+Calibrating delay loop... 595.96 BogoMIPS (lpj=297984)
+Mount-cache hash table entries: 512
+IMEM section size = 0x132d4
+net_namespace: 788 bytes
+NET: Registered protocol family 16
+bio: create slab <bio-0> at 0
+SCSI subsystem initialized
+usbcore: registered new interface driver usbfs
+usbcore: registered new interface driver hub
+usbcore: registered new device driver usb
+Sangoma WANPIPE Router v1.1 (c) 1995-2000 Sangoma Technologies Inc.
+NET: Registered protocol family 8
+NET: Registered protocol family 20
+NET: Registered protocol family 2
+IP route cache hash table entries: 2048 (order: 1, 8192 bytes)
+TCP established hash table entries: 8192 (order: 4, 65536 bytes)
+TCP bind hash table entries: 8192 (order: 3, 32768 bytes)
+TCP: Hash tables configured (established 8192 bind 8192)
+TCP reno registered
+NET: Registered protocol family 1
+Realtek GPIO Driver for Flash Reload Default
+=============Enter: luna_uart1_pinmux=============
+SOC_BOND_ID=0x0000001b
+unknown bond id
+Disabled GPIO/LED pin-mux with UART1.
+=============Exit: luna_uart1_pinmux=============
+squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Registering unionfs 2.5.10 (for 2.6.30.10)
+NTFS driver 2.1.29 [Flags: R/W].
+JFFS2 version 2.2. (NAND) � 2001-2006 Red Hat, Inc.
+fuse init (API version 7.11)
+msgmni has been set to 382
+alg: No test for stdrng (krng)
+io scheduler noop registered
+io scheduler deadline registered
+io scheduler cfq registered (default)
+SOC_ID 0x6266
+unknown bond id
+aipc: register chrdev(254,0)
+aipc: create device successed
+aipc: start aipc irq init
+aipc: Request IRQ for IPC OK
+aipc: create dsp console device successed
+aipc: init done
+Serial: 8250/16550 driver, 1 ports, IRQ sharing disabled
+serial8250: ttyS0 at MMIO 0x0 (irq = 49) is a 16550A
+Driver 'sd' needs updating - please use bus_type methods
+PPP generic driver version 2.4.2
+NET: Registered protocol family 24
+PPTP driver version 0.8.5
+[drivers/net/re8686.c-5589] init complete!
+8686 Ethernet driver v0.0.1 (Feb 17, 2012)[Dual Band Enable]
+TX[1024,0,16,0,16] , RX[1024,256,256,0,0,0]
+eth0 (): not using net_device_ops yet
+eth0: RTL-8686 at 0xb8012000, 00:00:00:01:00:02, IRQ 26
+eth0.2 (): not using net_device_ops yet
+eth0.2: RTL-8686 at 0xb8012000, 00:00:00:01:00:02, IRQ 26
+eth0.3 (): not using net_device_ops yet
+eth0.3: RTL-8686 at 0xb8012000, 00:00:00:01:00:02, IRQ 26
+eth0.4 (): not using net_device_ops yet
+eth0.4: RTL-8686 at 0xb8012000, 00:00:00:01:00:02, IRQ 26
+eth0.5 (): not using net_device_ops yet
+eth0.5: RTL-8686 at 0xb8012000, 00:00:00:01:00:02, IRQ 26
+nas0 (): not using net_device_ops yet
+nas0: RTL-8686 at 0xb8012000, 00:00:00:01:00:02, IRQ 26
+pon0 (): not using net_device_ops yet
+pon0: RTL-8686 at 0xb8012000, 00:00:00:01:00:02, IRQ 26
+wlan1 (): not using net_device_ops yet
+wlan1: RTL-8686 at 0xb8012000, 00:00:00:01:00:02, IRQ 26
+vwlan (): not using net_device_ops yet
+vwlan: RTL-8686 at 0xb8012000, 00:00:00:01:00:02, IRQ 26
+wlan1-vap0 (): not using net_device_ops yet
+wlan1-vap0: RTL-8686 at 0xb8012000, 00:00:00:01:00:02, IRQ 26
+wlan1-vap1 (): not using net_device_ops yet
+wlan1-vap1: RTL-8686 at 0xb8012000, 00:00:00:01:00:02, IRQ 26
+wlan1-vap2 (): not using net_device_ops yet
+wlan1-vap2: RTL-8686 at 0xb8012000, 00:00:00:01:00:02, IRQ 26
+wlan1-vap3 (): not using net_device_ops yet
+wlan1-vap3: RTL-8686 at 0xb8012000, 00:00:00:01:00:02, IRQ 26
+RTL8686 GMAC Probing..
+first entry: 0, portmask 127, rx: 805adb90
+Carrier forced to enabled for RGMII port.
+Init RTK Driver Module....OK
+Init RTK Core Dev Module....OK
+
+ rtdrv_init !!! for netfilter
+pkt_redirect_init complete
+interrupt broadcaster init ok!
+Realtek WLAN driver driver version 3.6.7 (2018-12-27)
+Adaptivity function - version 9.3.4
+CFG1 wdev->conf_addr:b8b30000,base_addr:ba000000
+===> PCIE reset try 0
+8686 25Mhz
+Port1 Link@2.5GHz
+rtl8192cd_init_one(12828): vendor_deivce_id(818b10ec) sub(818b10ec)
+MACHAL_version_init
+wlan0 (): not using net_device_ops yet
+#### root = 8d86c000 ####
+
+
+#######################################################
+SKB_BUF_SIZE=4912 MAX_SKB_NUM=768
+#######################################################
+
+wlan0-vap0 (): not using net_device_ops yet
+wlan0-vap1 (): not using net_device_ops yet
+wlan0-vap2 (): not using net_device_ops yet
+wlan0-vap3 (): not using net_device_ops yet
+pwlan0 (): not using net_device_ops yet
+Start RPE for QWE radio
+[II] WiFi BS Logic: started
+[II] KS Server: started (listening on 169.254.1.1:11975, IOCTL device: /dev/ict_ks)
+Realtek Luna NAND Flash Driver Rev:06:39:30 (ccwei0908)
+rtk_nand_read_id id is c2 f1 80 95 2rtk_nand_read_id id is 0 0 0 0 0One MX30LF1G18AC chip has 1 die(s) on board
+nand part=MX30LF1G18AC, id=c2f18095, device_size=134217728, chip_size=134217728, num_chips=1, isLastPage=0
+rtk_nand_scan(1986): pagesize=800 chunk_size=800 ,oob=40 mtd=8daa8800(8daa8814)
+flash_info list
+flash_info.num_block : 1024
+flash_info.num_page_per_block : 64
+flash_info.page_per_chunk : 1
+flash_info.bbi_dma_offset : 2000
+flash_info.bbi_raw_offset : 2048
+flash_info.bbi_swap_offset : 23
+flash_info.page_size : 2048
+flash_info.addr_cycles : 4
+pblr_start_block : 0
+num_pblr_block : 0
+chunk size is 2048
+flash_info_num_chunk_per_block is 64
+detect block  809s bad 
+detect block  823s bad 
+detect block  829s bad 
+detect block  843s bad 
+detect block  871s bad 
+detect block  899s bad 
+detect block  913s bad 
+detect block  917s bad 
+detect block  967s bad 
+detect block  1001s bad 
+detect block  1007s bad 
+detect block  1015s bad 
+detect block  1017s bad 
+detect block  1023s bad 
+master->name nand_flash
+cmd: cmdlinepart
+11 cmdlinepart partitions found on MTD device nand_flash
+RTK: using dynamic nand partition
+Creating 11 MTD partitions on "nand_flash":
+0x000000000000-0x000000140000 : "master_boot"
+0x000000140000-0x000000240000 : "boot1"
+0x000000240000-0x000000340000 : "boot2"
+0x000000340000-0x000000460000 : "env"
+0x000000460000-0x000001140000 : "config"
+0x000001140000-0x000001300000 : "data"
+0x000001300000-0x000002c00000 : "custom"
+0x000002c00000-0x000005300000 : "kfs1"
+0x000005300000-0x000007a00000 : "kfs2"
+0x00000554527f-0x00000652027f : "rfs2"
+mtd: partition "rfs2" doesn't start on an erase block boundary -- force read-only
+0x000000000000-0x000008000000 : "all"
+Realtek Nand Flash Driver is successfully installing.
+ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+xhci_rtl8672_init:885
+xhci_rtl8672_init:905  xhci_rtl8672_init SUCCESS!!!
+read_reg(0xb8000600)=0xffff00c0
+[set_usbphy_rle0371] read_reg(0xb8000600)=0xffff00c0
+Start of setting U3 Phy parameters
+End of setting U3 Phy parameters
+######### 0xb8000600=c000ffff ###########
+Now config U2 PHY in XHCI
+b8040000=20009600 b800300c=0 xhci_usb_hcd_probe_rtl8672 819
+rtl8672-xhci rtl8672-xhci.0: xHCI Host Controller
+rtl8672-xhci rtl8672-xhci.0: new USB bus registered, assigned bus number 1
+Realtek IC reset patch!..............................
+rtl8672-xhci rtl8672-xhci.0: irq 13, io mem 0xb8040000
+usb usb1: config 1 interface 0 altsetting 0 endpoint 0x81 has no SuperSpeed companion descriptor
+usb_new_device:2110 udev 1, busnum 1, minor = 0
+usb usb1: configuration #1 chosen from 1 choice
+hub 1-0:1.0: USB hub found
+Hub is SuperSpeed[3]!!
+Hub is SuperSpeed[3]!!
+hub 1-0:1.0: 2 ports detected
+b8040000=20009600 b800300c=0 xhci_usb_hcd_probe_rtl8672 822 retval=0
+rtl8672-ehci rtl8672-ehci: EHCI Host Controller
+rtl8672-ehci rtl8672-ehci: new USB bus registered, assigned bus number 2
+rtl8672-ehci rtl8672-ehci: irq 14, io mem 0xb8021000
+rtl8672-ehci rtl8672-ehci: USB 0.0 started, EHCI 1.00
+usb_new_device:2110 udev 1, busnum 2, minor = 128
+usb usb2: configuration #1 chosen from 2 choices
+hub 2-0:1.0: USB hub found
+Hub is not SuperSpeed[2]!!
+Hub is not SuperSpeed[2]!!
+hub 2-0:1.0: 1 port detected
+rtl8672_hcd_cs_init: register rtl8672_ehci ok!
+rtl8672-ohci rtl8672-ohci: OHCI Host Controller
+rtl8672-ohci rtl8672-ohci: new USB bus registered, assigned bus number 3
+rtl8672-ohci rtl8672-ohci: irq 14, io mem 0xb8020000
+usb_new_device:2110 udev 1, busnum 3, minor = 256
+usb usb3: configuration #1 chosen from 1 choice
+hub 3-0:1.0: USB hub found
+Hub is not SuperSpeed[1001]!!
+Hub is not SuperSpeed[1001]!!
+hub 3-0:1.0: 1 port detected
+rtl8672_hcd_cs_init: register rtl8672_ohci ok!
+usbcore: registered new interface driver usblp
+Initializing USB Mass Storage driver...
+usbcore: registered new interface driver usb-storage
+USB Mass Storage support registered.
+usbcore: registered new interface driver usbserial
+usbserial: USB Serial Driver core
+USB Serial support registered for cp2101
+usbcore: registered new interface driver cp2101
+cp210x: v0.08:Silicon Labs CP2101/CP2102 RS232 serial adaptor driver
+USB Serial support registered for GSM modem (1-port)
+usbcore: registered new interface driver option
+option: v0.7.2:USB Driver for GSM modems
+u32 classifier
+nf_conntrack version 0.5.0 (3584 buckets, 14336 max)
+GRE over IPv4 demultiplexor driver<6>GRE over IPv4 tunneling driver
+ipgre init: can't add protocol
+ip_tables: (C) 2000-2006 Netfilter Core Team
+TCP cubic registered
+NET: Registered protocol family 10
+lo: Disabled Privacy Extensions
+ip6_tables: (C) 2000-2006 Netfilter Core Team
+IPv6 over IPv4 tunneling driver
+Hub is SuperSpeed[3]!!
+Hub is SuperSpeed[3]!!
+sit0: Disabled Privacy Extensions
+Hub is not SuperSpeed[2]!!
+ip6tnl0: Disabled Privacy Extensions
+NET: Registered protocol family 17
+Bridge firewalling registered
+Ebtables v2.0 registered
+802.1Q VLAN Support v1.8 Ben Greear <greearb@candelatech.com>
+All bugs added by David S. Miller <davem@redhat.com>
+SCTP: Hash tables configured (established 8192 bind 16384)
+priority: 0, portmask 127, rx: 805adb90
+insert here, priority: 1, portmask 127, rx: 8030cc58
+vwlan: version 0.1.0
+VoIP control bind 2 (2) instances successfully.
+index dsp_cpuid dsp_cch host_cch
+----- --------- ------- --------
+   0       0        0       0   
+   1       0        1       1   
+VoIP RX netfilter hook init done!
+VoIP RX netfilter hook for IPv6 init done!
+=============RTK VOIP SUITE=============
+SDK VoIP Version: VoIP-1.6-DSP-R5523-Luna-R24-dtmf_voice_det 
+Board CFG Model :  
+INITIAL VOIP MANAGER PROGRAM
+VFS: Mounted root (squashfs filesystem) readonly on device 31:9.
+Freeing unused kernel memory: 140k freed
+Hub is not SuperSpeed[1001]!!
+Starting from initramfs ...
+=== boot rcS ===
+----- /etc/init.d/rc3: boot -----
+/etc/init.d/rc3: line 3: /etc/scripts/rc_dev_voip: not found
+JFFS2 doesn't use OOB.
+jffs2_scan_dirent_node(): Name CRC failed on node at 0x009e7fdc: Read 0xffffffff, calculated 0xc22a5d12
+Empty flash at 0x009e8014 ends at 0x009e8800
+/etc/config mounted
+JFFS2 doesn't use OOB.
+/etc/customer mounted
+----- /etc/init.d/rc5: boot -----
+Bootup Slave CPU
+
+
+aipc: write image successful. size=13431968 rc=13431968 wc=13431968 da=0xb0d00000 remain=0
+
+aipc: (0479)aipc_dev_ioctl  boot dual linux
+
+Wait DSP 0/1 booting ......
+.aipc: (0421)aipc_dsp_disable_mem  
+DSP 0 Software Ready!
+
+Inactive PIN_CS: 
+aipc: (0172)aipc_module_voip_set_pcm_fs  WSDS_ANA_1A 0xbb022068 0x0000cc00
+aipc: (0175)aipc_module_voip_set_pcm_fs  WSDS_ANA_07 0xbb02201c 0x00002410
+aipc: (0178)aipc_module_voip_set_pcm_fs  WSDS_ANA_22 0xbb022088 0x0001edc0
+aipc: (0181)aipc_module_voip_set_pcm_fs  WSDS_ANA_23 0xbb02208c 0x00720000
+aipc: (0184)aipc_module_voip_set_pcm_fs  WSDS_ANA_15 0xbb022054 0x00003872
+aipc: (0188)aipc_module_voip_set_pcm_fs  WSDS_ANA_24 0xbb022090 0x000003c8
+aipc: (0189)aipc_module_voip_set_pcm_fs  WSDS_ANA_18 0xbb022060 0x0000a842
+move this action after init
+devicePcn = [75], deviceRcn = [8]]
+Initializing device 0x81ecdac8
+FXS in LOW power modeFXS in LOW power modeVpSetOption for line IO failed. status = 6
+VpSetOption for line IO failed. status = 6
+All DSP Software Ready. VoIP Defer Init done. 
+rm: can't remove '/image/luna_slave.tar.lzma': Read-only file system
+Removed slave images
+----- /etc/init.d/rc6: boot -----
+----- /etc/init.d/rc8: boot -----
+kernel.panic = 3
+kernel.panic_on_oops = 1
+kernel.softlockup_panic = 1
+kernel.hung_task_panic = 1
+vm.panic_on_oom = 1
+net.ipv4.igmp_max_memberships = 64
+11.68 293 UP: version set to 4850-1.16.5_1
+8051: /etc/config/i6800ng_APROM-*.bin doesn't exist.
+shm starting...
+main SHM init: 
+main SHM init: dynamic_struct: record node array:  entry size=[17], count=[109313], total size=[1858321]
+main SHM init: dynamic_struct: name_table=[15636]
+main SHM init: dynamic_struct: const_value_table=[249]
+main SHM init: dynamic_struct: validator_table=[298]
+main SHM init: dynamic_struct: node class array: entry size=[8], count= [1415], total size=[11320]
+main SHM init: done OK
+SHM custom data init: initializing 616 bytes...
+SHM custom data init: allocated 616 bytes
+SHM custom data init: initialized
+tmp/boot.db
+shm started!
+----- /etc/init.d/rc10: boot -----
+Enable RGMII port ...
+sh: write error: Bad address
+/etc/rc.common: eval: line 8: can't create /proc/fiber_mode: nonexistent directory
+re8670_open 3180
+device eth0 entered promiscuous mode
+----- /etc/init.d/rc15: boot -----
+RomeDriver Debug level=0x0 [0x1:DEBUG=off][0x2:FIXME=off][0x4:CALLBACK=off][0x8:TRACE=off][0x10:ACL=off][0x20:WARN=off][0x40:TRACE_DUMP=off][0x80:WMUX=off][0x100:MACLN=off][0x200:TABLE=off][0x400:ALG=off][0x800:IGMP=off][0x1000:ACL_RSV=off][0x2000:NATPROTECT=off]
+ict_qtn_client starting...
+ict_qtn_client started!
+icotera_manager starting...
+icotera_manager started!
+----- /etc/init.d/rc34: boot -----
+run rcm voip script...
+
+Please press Enter to activate this console. All DSP Software Ready. VoIP Defer Init done. 
+start watch dog
+/etc/scripts/rcm_voip: line 15: /bin/voip_gwdt: not found
+port 0 assign to eth0
+port 1 assign to eth0
+port 2 assign to eth0
+port 3 assign to eth0
+port 4 assign to eth0
+port 5 assign to eth0
+port 6 assign to eth0
+re8670_close 3235
+re8670_open 3180
+RGMII: adding arp entries
+RGMII: rgmii_vlanid: 1
+br0: port 1(eth0) entering forwarding state
+device nas0 entered promiscuous mode
+ict_dns_jail CLEANED!
+br0: port 1(eth0) entering disabled state
+br0: port 1(eth0) entering forwarding state
+device br0 entered promiscuous mode
+port 0 assign to eth0
+port 1 assign to eth0
+port 2 assign to eth0
+port 3 assign to eth0
+port 5 assign to eth0
+port 6 assign to eth0
+port 4 assign to nas0
+nas0 -> 0x10
+port 4 assign to nas0
+nas0 -> 0x10
+ADDRCONF(NETDEV_UP): nas0: link is not ready
+nas0_1 (): not using net_device_ops yet
+ADDRCONF(NETDEV_UP): nas0_1: link is not ready
+No valid ip on management interface.
+br0: port 1(eth0) entering disabled state
+br0: port 1(eth0) entering forwarding state
+port 4 assign to nas0
+nas0 -> 0x10
+port 4 assign to nas0
+nas0 -> 0x10
+ADDRCONF(NETDEV_UP): nas0_1: link is not ready
+WlanSupportAbility = 0x1
+[QWERPE] [Info ] (qwerpe_register_:1304)qwerpe bss [00:1e:80:f8:a6:c0] for wlan0 is created
+[ODM_software_init][13225] BoardType = 0x20 rfe_type=0
+eric-8822 [ODM_software_init][13440] 
+clock 25MHz
+
+
+************* Initialize MAC/PHY parameter *************
+[MAC_REG_8192Emp]
+RTL8192E_MAC_PHY_Parameter_v016_MP_20130705
+[PHY_REG_8192Emp]
+RTL8192E_MAC_PHY_Parameter_v043_MP_20141229
+[PHY_REG_PG_8192E_new]
+RL6286_MAC_PHY_Parameter_v024_20130125
+[AGC_TAB_8192Emp]
+RTL8192E_MAC_PHY_Parameter_v043_MP_20141229
+RadioA_8192Emp
+RTL8192E_MAC_PHY_Parameter_v043_MP_20141229
+[RadioB_8192Emp]
+RTL8192E_MAC_PHY_Parameter_v043_MP_20141229
+[TXPWR_LMT_92EE_new]
+[PHY_ConfigTXPwrTrackingWithParaFile 4358]
+[PHY_ConfigTXPwrTrackingWithParaFile 4420] read_bytes=2283
+[TxPowerTrack_AP]
+[QWERPE] [Notic] (qwerpe_handle_in:0897)qwerpe is on
+Write Address 0xbb0001a8 Value 0x00000100
+Write Address 0xbb000170 Value 0x00000002
+System ready: 80 seconds. Firmware version: 4850-1.16.5_1
+ethwan detected
